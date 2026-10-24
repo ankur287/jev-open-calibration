@@ -62,7 +62,7 @@ python code/ece_matched_bins.py
 python code/example_lost_wallet.py   # the opening example, a few seconds
 ```
 
-The open-model experiments take a few minutes on a laptop CPU.
+The open-model experiments take a few minutes on a laptop CPU. With these pinned versions the 7-intent results reproduce exactly; the saved 77-intent results were produced with an earlier scikit-learn and can differ by up to 0.005 on a rerun.
 
 The Jev experiments call the live API and need a key:
 
