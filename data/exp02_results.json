@@ -1,0 +1,1222 @@
+{
+  "assumptions": {
+    "frontier_acc": 0.97,
+    "cost_ratio": 100.0
+  },
+  "curves": {
+    "naive_bayes": [
+      {
+        "threshold": 0.1,
+        "coverage": 0.7584415584415585,
+        "precision_auto": 0.9028253424657534,
+        "escalated": 0.24155844155844153,
+        "overall_acc": 0.919051948051948,
+        "rel_cost": 24.91428571428571
+      },
+      {
+        "threshold": 0.12,
+        "coverage": 0.6886363636363636,
+        "precision_auto": 0.9193776520509194,
+        "escalated": 0.3113636363636364,
+        "overall_acc": 0.9351396103896104,
+        "rel_cost": 31.825000000000003
+      },
+      {
+        "threshold": 0.14,
+        "coverage": 0.6288961038961038,
+        "precision_auto": 0.9287558079504388,
+        "escalated": 0.37110389610389616,
+        "overall_acc": 0.9440616883116882,
+        "rel_cost": 37.73928571428572
+      },
+      {
+        "threshold": 0.16,
+        "coverage": 0.5827922077922078,
+        "precision_auto": 0.9370473537604457,
+        "escalated": 0.41720779220779225,
+        "overall_acc": 0.9507954545454546,
+        "rel_cost": 42.30357142857144
+      },
+      {
+        "threshold": 0.18,
+        "coverage": 0.5340909090909091,
+        "precision_auto": 0.941033434650456,
+        "escalated": 0.46590909090909094,
+        "overall_acc": 0.9545292207792209,
+        "rel_cost": 47.125
+      },
+      {
+        "threshold": 0.2,
+        "coverage": 0.4948051948051948,
+        "precision_auto": 0.9461942257217848,
+        "escalated": 0.5051948051948052,
+        "overall_acc": 0.9582207792207793,
+        "rel_cost": 51.01428571428571
+      },
+      {
+        "threshold": 0.22,
+        "coverage": 0.45194805194805193,
+        "precision_auto": 0.9547413793103449,
+        "escalated": 0.5480519480519481,
+        "overall_acc": 0.9631038961038961,
+        "rel_cost": 55.25714285714287
+      },
+      {
+        "threshold": 0.24,
+        "coverage": 0.41785714285714287,
+        "precision_auto": 0.9603729603729604,
+        "escalated": 0.5821428571428571,
+        "overall_acc": 0.9659772727272726,
+        "rel_cost": 58.63214285714285
+      },
+      {
+        "threshold": 0.26,
+        "coverage": 0.37857142857142856,
+        "precision_auto": 0.9665523156089194,
+        "escalated": 0.6214285714285714,
+        "overall_acc": 0.9686948051948052,
+        "rel_cost": 62.52142857142857
+      },
+      {
+        "threshold": 0.28,
+        "coverage": 0.3457792207792208,
+        "precision_auto": 0.9690140845070423,
+        "escalated": 0.6542207792207793,
+        "overall_acc": 0.969659090909091,
+        "rel_cost": 65.76785714285715
+      },
+      {
+        "threshold": 0.3,
+        "coverage": 0.31753246753246755,
+        "precision_auto": 0.9723926380368099,
+        "escalated": 0.6824675324675324,
+        "overall_acc": 0.9707597402597402,
+        "rel_cost": 68.56428571428572
+      },
+      {
+        "threshold": 0.32,
+        "coverage": 0.29383116883116883,
+        "precision_auto": 0.9756906077348066,
+        "escalated": 0.7061688311688312,
+        "overall_acc": 0.971672077922078,
+        "rel_cost": 70.91071428571429
+      },
+      {
+        "threshold": 0.34,
+        "coverage": 0.26590909090909093,
+        "precision_auto": 0.978021978021978,
+        "escalated": 0.7340909090909091,
+        "overall_acc": 0.9721331168831169,
+        "rel_cost": 73.675
+      },
+      {
+        "threshold": 0.36,
+        "coverage": 0.2457792207792208,
+        "precision_auto": 0.9815059445178336,
+        "escalated": 0.7542207792207792,
+        "overall_acc": 0.9728279220779221,
+        "rel_cost": 75.66785714285714
+      },
+      {
+        "threshold": 0.38,
+        "coverage": 0.225,
+        "precision_auto": 0.9841269841269841,
+        "escalated": 0.775,
+        "overall_acc": 0.9731785714285714,
+        "rel_cost": 77.725
+      },
+      {
+        "threshold": 0.4,
+        "coverage": 0.20811688311688312,
+        "precision_auto": 0.9890795631825273,
+        "escalated": 0.7918831168831169,
+        "overall_acc": 0.9739707792207791,
+        "rel_cost": 79.39642857142857
+      },
+      {
+        "threshold": 0.42,
+        "coverage": 0.19090909090909092,
+        "precision_auto": 0.9914965986394558,
+        "escalated": 0.8090909090909091,
+        "overall_acc": 0.974103896103896,
+        "rel_cost": 81.1
+      },
+      {
+        "threshold": 0.44,
+        "coverage": 0.17435064935064934,
+        "precision_auto": 0.994413407821229,
+        "escalated": 0.8256493506493506,
+        "overall_acc": 0.9742564935064935,
+        "rel_cost": 82.7392857142857
+      },
+      {
+        "threshold": 0.46,
+        "coverage": 0.15746753246753248,
+        "precision_auto": 0.9938144329896907,
+        "escalated": 0.8425324675324675,
+        "overall_acc": 0.9737499999999999,
+        "rel_cost": 84.41071428571428
+      },
+      {
+        "threshold": 0.48,
+        "coverage": 0.1448051948051948,
+        "precision_auto": 0.9955156950672646,
+        "escalated": 0.8551948051948052,
+        "overall_acc": 0.9736948051948051,
+        "rel_cost": 85.66428571428573
+      },
+      {
+        "threshold": 0.5,
+        "coverage": 0.1314935064935065,
+        "precision_auto": 0.9975308641975309,
+        "escalated": 0.8685064935064934,
+        "overall_acc": 0.9736201298701298,
+        "rel_cost": 86.98214285714286
+      },
+      {
+        "threshold": 0.52,
+        "coverage": 0.11948051948051948,
+        "precision_auto": 0.9972826086956522,
+        "escalated": 0.8805194805194805,
+        "overall_acc": 0.9732597402597402,
+        "rel_cost": 88.17142857142856
+      },
+      {
+        "threshold": 0.54,
+        "coverage": 0.10876623376623376,
+        "precision_auto": 0.9970149253731343,
+        "escalated": 0.8912337662337663,
+        "overall_acc": 0.9729383116883117,
+        "rel_cost": 89.23214285714286
+      },
+      {
+        "threshold": 0.56,
+        "coverage": 0.09935064935064936,
+        "precision_auto": 0.9967320261437909,
+        "escalated": 0.9006493506493507,
+        "overall_acc": 0.9726558441558442,
+        "rel_cost": 90.16428571428573
+      },
+      {
+        "threshold": 0.58,
+        "coverage": 0.08668831168831169,
+        "precision_auto": 0.9962546816479401,
+        "escalated": 0.9133116883116883,
+        "overall_acc": 0.9722759740259741,
+        "rel_cost": 91.41785714285713
+      },
+      {
+        "threshold": 0.6,
+        "coverage": 0.07792207792207792,
+        "precision_auto": 0.9958333333333333,
+        "escalated": 0.922077922077922,
+        "overall_acc": 0.9720129870129869,
+        "rel_cost": 92.28571428571429
+      },
+      {
+        "threshold": 0.62,
+        "coverage": 0.0672077922077922,
+        "precision_auto": 0.9951690821256038,
+        "escalated": 0.9327922077922078,
+        "overall_acc": 0.9716915584415584,
+        "rel_cost": 93.34642857142858
+      },
+      {
+        "threshold": 0.64,
+        "coverage": 0.06038961038961039,
+        "precision_auto": 0.9946236559139785,
+        "escalated": 0.9396103896103896,
+        "overall_acc": 0.9714870129870129,
+        "rel_cost": 94.02142857142856
+      },
+      {
+        "threshold": 0.66,
+        "coverage": 0.053246753246753244,
+        "precision_auto": 1.0,
+        "escalated": 0.9467532467532468,
+        "overall_acc": 0.9715974025974026,
+        "rel_cost": 94.72857142857143
+      },
+      {
+        "threshold": 0.68,
+        "coverage": 0.045454545454545456,
+        "precision_auto": 1.0,
+        "escalated": 0.9545454545454546,
+        "overall_acc": 0.9713636363636363,
+        "rel_cost": 95.5
+      },
+      {
+        "threshold": 0.7,
+        "coverage": 0.03831168831168831,
+        "precision_auto": 1.0,
+        "escalated": 0.9616883116883117,
+        "overall_acc": 0.9711493506493506,
+        "rel_cost": 96.20714285714287
+      },
+      {
+        "threshold": 0.72,
+        "coverage": 0.033116883116883114,
+        "precision_auto": 1.0,
+        "escalated": 0.9668831168831169,
+        "overall_acc": 0.9709935064935065,
+        "rel_cost": 96.72142857142858
+      },
+      {
+        "threshold": 0.74,
+        "coverage": 0.02857142857142857,
+        "precision_auto": 1.0,
+        "escalated": 0.9714285714285714,
+        "overall_acc": 0.9708571428571429,
+        "rel_cost": 97.17142857142856
+      },
+      {
+        "threshold": 0.76,
+        "coverage": 0.024675324675324677,
+        "precision_auto": 1.0,
+        "escalated": 0.9753246753246754,
+        "overall_acc": 0.9707402597402597,
+        "rel_cost": 97.55714285714286
+      },
+      {
+        "threshold": 0.78,
+        "coverage": 0.01818181818181818,
+        "precision_auto": 1.0,
+        "escalated": 0.9818181818181818,
+        "overall_acc": 0.9705454545454545,
+        "rel_cost": 98.2
+      },
+      {
+        "threshold": 0.8,
+        "coverage": 0.015584415584415584,
+        "precision_auto": 1.0,
+        "escalated": 0.9844155844155844,
+        "overall_acc": 0.9704675324675325,
+        "rel_cost": 98.45714285714286
+      },
+      {
+        "threshold": 0.82,
+        "coverage": 0.011363636363636364,
+        "precision_auto": 1.0,
+        "escalated": 0.9886363636363636,
+        "overall_acc": 0.9703409090909091,
+        "rel_cost": 98.875
+      },
+      {
+        "threshold": 0.84,
+        "coverage": 0.008441558441558441,
+        "precision_auto": 1.0,
+        "escalated": 0.9915584415584415,
+        "overall_acc": 0.9702532467532468,
+        "rel_cost": 99.16428571428571
+      },
+      {
+        "threshold": 0.86,
+        "coverage": 0.006818181818181818,
+        "precision_auto": 1.0,
+        "escalated": 0.9931818181818182,
+        "overall_acc": 0.9702045454545454,
+        "rel_cost": 99.32499999999999
+      },
+      {
+        "threshold": 0.88,
+        "coverage": 0.003896103896103896,
+        "precision_auto": 1.0,
+        "escalated": 0.9961038961038962,
+        "overall_acc": 0.970116883116883,
+        "rel_cost": 99.61428571428573
+      },
+      {
+        "threshold": 0.9,
+        "coverage": 0.001948051948051948,
+        "precision_auto": 1.0,
+        "escalated": 0.9980519480519481,
+        "overall_acc": 0.9700584415584416,
+        "rel_cost": 99.80714285714285
+      },
+      {
+        "threshold": 0.92,
+        "coverage": 0.0,
+        "precision_auto": NaN,
+        "escalated": 1.0,
+        "overall_acc": 0.97,
+        "rel_cost": 100.0
+      },
+      {
+        "threshold": 0.94,
+        "coverage": 0.0,
+        "precision_auto": NaN,
+        "escalated": 1.0,
+        "overall_acc": 0.97,
+        "rel_cost": 100.0
+      },
+      {
+        "threshold": 0.96,
+        "coverage": 0.0,
+        "precision_auto": NaN,
+        "escalated": 1.0,
+        "overall_acc": 0.97,
+        "rel_cost": 100.0
+      },
+      {
+        "threshold": 0.98,
+        "coverage": 0.0,
+        "precision_auto": NaN,
+        "escalated": 1.0,
+        "overall_acc": 0.97,
+        "rel_cost": 100.0
+      }
+    ],
+    "logreg": [
+      {
+        "threshold": 0.1,
+        "coverage": 0.9792207792207792,
+        "precision_auto": 0.9018567639257294,
+        "escalated": 0.020779220779220786,
+        "overall_acc": 0.9032727272727272,
+        "rel_cost": 3.057142857142858
+      },
+      {
+        "threshold": 0.12,
+        "coverage": 0.9707792207792207,
+        "precision_auto": 0.9046822742474916,
+        "escalated": 0.02922077922077926,
+        "overall_acc": 0.906590909090909,
+        "rel_cost": 3.892857142857147
+      },
+      {
+        "threshold": 0.14,
+        "coverage": 0.9607142857142857,
+        "precision_auto": 0.9074011490368368,
+        "escalated": 0.03928571428571426,
+        "overall_acc": 0.9098603896103896,
+        "rel_cost": 4.889285714285712
+      },
+      {
+        "threshold": 0.16,
+        "coverage": 0.9470779220779221,
+        "precision_auto": 0.9132670551936921,
+        "escalated": 0.052922077922077926,
+        "overall_acc": 0.9162694805194804,
+        "rel_cost": 6.239285714285714
+      },
+      {
+        "threshold": 0.18,
+        "coverage": 0.9334415584415584,
+        "precision_auto": 0.9189565217391304,
+        "escalated": 0.0665584415584416,
+        "overall_acc": 0.9223538961038962,
+        "rel_cost": 7.589285714285717
+      },
+      {
+        "threshold": 0.2,
+        "coverage": 0.9194805194805195,
+        "precision_auto": 0.9240819209039548,
+        "escalated": 0.08051948051948055,
+        "overall_acc": 0.9277792207792208,
+        "rel_cost": 8.971428571428573
+      },
+      {
+        "threshold": 0.22,
+        "coverage": 0.9068181818181819,
+        "precision_auto": 0.9291084854994629,
+        "escalated": 0.09318181818181814,
+        "overall_acc": 0.9329188311688312,
+        "rel_cost": 10.224999999999996
+      },
+      {
+        "threshold": 0.24,
+        "coverage": 0.8944805194805194,
+        "precision_auto": 0.9310344827586207,
+        "escalated": 0.10551948051948057,
+        "overall_acc": 0.9351461038961039,
+        "rel_cost": 11.446428571428575
+      },
+      {
+        "threshold": 0.26,
+        "coverage": 0.8821428571428571,
+        "precision_auto": 0.9326463010673537,
+        "escalated": 0.11785714285714288,
+        "overall_acc": 0.9370487012987012,
+        "rel_cost": 12.667857142857144
+      },
+      {
+        "threshold": 0.28,
+        "coverage": 0.8681818181818182,
+        "precision_auto": 0.9360508601346298,
+        "escalated": 0.13181818181818183,
+        "overall_acc": 0.940525974025974,
+        "rel_cost": 14.05
+      },
+      {
+        "threshold": 0.3,
+        "coverage": 0.8538961038961039,
+        "precision_auto": 0.9418250950570343,
+        "escalated": 0.14610389610389607,
+        "overall_acc": 0.9459415584415585,
+        "rel_cost": 15.464285714285712
+      },
+      {
+        "threshold": 0.32,
+        "coverage": 0.837987012987013,
+        "precision_auto": 0.9461449050755522,
+        "escalated": 0.16201298701298705,
+        "overall_acc": 0.9500097402597403,
+        "rel_cost": 17.039285714285718
+      },
+      {
+        "threshold": 0.34,
+        "coverage": 0.8188311688311688,
+        "precision_auto": 0.9504361617763679,
+        "escalated": 0.1811688311688312,
+        "overall_acc": 0.9539805194805194,
+        "rel_cost": 18.935714285714287
+      },
+      {
+        "threshold": 0.36,
+        "coverage": 0.8038961038961039,
+        "precision_auto": 0.9543618739903069,
+        "escalated": 0.1961038961038961,
+        "overall_acc": 0.9574285714285715,
+        "rel_cost": 20.414285714285715
+      },
+      {
+        "threshold": 0.38,
+        "coverage": 0.7886363636363637,
+        "precision_auto": 0.9575957184026348,
+        "escalated": 0.2113636363636363,
+        "overall_acc": 0.9602175324675324,
+        "rel_cost": 21.924999999999994
+      },
+      {
+        "threshold": 0.4,
+        "coverage": 0.775,
+        "precision_auto": 0.9585253456221198,
+        "escalated": 0.22499999999999998,
+        "overall_acc": 0.9611071428571428,
+        "rel_cost": 23.274999999999995
+      },
+      {
+        "threshold": 0.42,
+        "coverage": 0.7607142857142857,
+        "precision_auto": 0.9611609048228766,
+        "escalated": 0.23928571428571432,
+        "overall_acc": 0.963275974025974,
+        "rel_cost": 24.689285714285717
+      },
+      {
+        "threshold": 0.44,
+        "coverage": 0.7422077922077922,
+        "precision_auto": 0.9663167104111986,
+        "escalated": 0.2577922077922078,
+        "overall_acc": 0.9672662337662337,
+        "rel_cost": 26.521428571428572
+      },
+      {
+        "threshold": 0.46,
+        "coverage": 0.7269480519480519,
+        "precision_auto": 0.9696292987941045,
+        "escalated": 0.2730519480519481,
+        "overall_acc": 0.9697305194805195,
+        "rel_cost": 28.032142857142862
+      },
+      {
+        "threshold": 0.48,
+        "coverage": 0.7074675324675325,
+        "precision_auto": 0.9710876548875631,
+        "escalated": 0.29253246753246753,
+        "overall_acc": 0.9707694805194804,
+        "rel_cost": 29.960714285714285
+      },
+      {
+        "threshold": 0.5,
+        "coverage": 0.6876623376623376,
+        "precision_auto": 0.9740321057601511,
+        "escalated": 0.31233766233766236,
+        "overall_acc": 0.9727727272727272,
+        "rel_cost": 31.921428571428574
+      },
+      {
+        "threshold": 0.52,
+        "coverage": 0.672077922077922,
+        "precision_auto": 0.9772946859903382,
+        "escalated": 0.32792207792207795,
+        "overall_acc": 0.9749025974025974,
+        "rel_cost": 33.46428571428572
+      },
+      {
+        "threshold": 0.54,
+        "coverage": 0.6503246753246753,
+        "precision_auto": 0.9780329505741387,
+        "escalated": 0.3496753246753247,
+        "overall_acc": 0.9752240259740259,
+        "rel_cost": 35.61785714285715
+      },
+      {
+        "threshold": 0.56,
+        "coverage": 0.6327922077922078,
+        "precision_auto": 0.9799897383273474,
+        "escalated": 0.3672077922077922,
+        "overall_acc": 0.9763214285714286,
+        "rel_cost": 37.35357142857143
+      },
+      {
+        "threshold": 0.58,
+        "coverage": 0.6142857142857143,
+        "precision_auto": 0.9809725158562368,
+        "escalated": 0.3857142857142857,
+        "overall_acc": 0.9767402597402598,
+        "rel_cost": 39.18571428571428
+      },
+      {
+        "threshold": 0.6,
+        "coverage": 0.5967532467532467,
+        "precision_auto": 0.9815016322089227,
+        "escalated": 0.4032467532467533,
+        "overall_acc": 0.9768636363636363,
+        "rel_cost": 40.92142857142858
+      },
+      {
+        "threshold": 0.62,
+        "coverage": 0.5766233766233766,
+        "precision_auto": 0.9831081081081081,
+        "escalated": 0.4233766233766234,
+        "overall_acc": 0.9775584415584415,
+        "rel_cost": 42.91428571428571
+      },
+      {
+        "threshold": 0.64,
+        "coverage": 0.5581168831168831,
+        "precision_auto": 0.9848749272833043,
+        "escalated": 0.4418831168831169,
+        "overall_acc": 0.978301948051948,
+        "rel_cost": 44.74642857142857
+      },
+      {
+        "threshold": 0.66,
+        "coverage": 0.537987012987013,
+        "precision_auto": 0.9873264936632469,
+        "escalated": 0.462012987012987,
+        "overall_acc": 0.9793214285714286,
+        "rel_cost": 46.73928571428571
+      },
+      {
+        "threshold": 0.68,
+        "coverage": 0.5214285714285715,
+        "precision_auto": 0.987546699875467,
+        "escalated": 0.47857142857142854,
+        "overall_acc": 0.9791493506493506,
+        "rel_cost": 48.378571428571426
+      },
+      {
+        "threshold": 0.7,
+        "coverage": 0.4993506493506494,
+        "precision_auto": 0.9895968790637191,
+        "escalated": 0.5006493506493506,
+        "overall_acc": 0.9797857142857143,
+        "rel_cost": 50.5642857142857
+      },
+      {
+        "threshold": 0.72,
+        "coverage": 0.47175324675324676,
+        "precision_auto": 0.9903647625602202,
+        "escalated": 0.5282467532467532,
+        "overall_acc": 0.9796071428571428,
+        "rel_cost": 53.296428571428564
+      },
+      {
+        "threshold": 0.74,
+        "coverage": 0.4435064935064935,
+        "precision_auto": 0.9912152269399708,
+        "escalated": 0.5564935064935065,
+        "overall_acc": 0.9794090909090909,
+        "rel_cost": 56.09285714285714
+      },
+      {
+        "threshold": 0.76,
+        "coverage": 0.42012987012987013,
+        "precision_auto": 0.9930448222565688,
+        "escalated": 0.5798701298701299,
+        "overall_acc": 0.9796818181818181,
+        "rel_cost": 58.40714285714286
+      },
+      {
+        "threshold": 0.78,
+        "coverage": 0.39545454545454545,
+        "precision_auto": 0.9942528735632183,
+        "escalated": 0.6045454545454545,
+        "overall_acc": 0.979590909090909,
+        "rel_cost": 60.85
+      },
+      {
+        "threshold": 0.8,
+        "coverage": 0.37012987012987014,
+        "precision_auto": 0.9956140350877193,
+        "escalated": 0.6298701298701299,
+        "overall_acc": 0.9794805194805194,
+        "rel_cost": 63.35714285714286
+      },
+      {
+        "threshold": 0.82,
+        "coverage": 0.3409090909090909,
+        "precision_auto": 0.9952380952380953,
+        "escalated": 0.6590909090909092,
+        "overall_acc": 0.9786038961038961,
+        "rel_cost": 66.25000000000001
+      },
+      {
+        "threshold": 0.84,
+        "coverage": 0.312987012987013,
+        "precision_auto": 0.9948132780082988,
+        "escalated": 0.6870129870129871,
+        "overall_acc": 0.9777662337662338,
+        "rel_cost": 69.01428571428572
+      },
+      {
+        "threshold": 0.86,
+        "coverage": 0.275974025974026,
+        "precision_auto": 0.9941176470588236,
+        "escalated": 0.724025974025974,
+        "overall_acc": 0.9766558441558442,
+        "rel_cost": 72.67857142857143
+      },
+      {
+        "threshold": 0.88,
+        "coverage": 0.2405844155844156,
+        "precision_auto": 0.9959514170040485,
+        "escalated": 0.7594155844155844,
+        "overall_acc": 0.9762435064935064,
+        "rel_cost": 76.18214285714286
+      },
+      {
+        "threshold": 0.9,
+        "coverage": 0.21071428571428572,
+        "precision_auto": 0.9953775038520801,
+        "escalated": 0.7892857142857143,
+        "overall_acc": 0.9753474025974026,
+        "rel_cost": 79.13928571428572
+      },
+      {
+        "threshold": 0.92,
+        "coverage": 0.1737012987012987,
+        "precision_auto": 0.994392523364486,
+        "escalated": 0.8262987012987013,
+        "overall_acc": 0.9742370129870129,
+        "rel_cost": 82.80357142857143
+      },
+      {
+        "threshold": 0.94,
+        "coverage": 0.1301948051948052,
+        "precision_auto": 0.9925187032418953,
+        "escalated": 0.8698051948051948,
+        "overall_acc": 0.9729318181818182,
+        "rel_cost": 87.11071428571428
+      },
+      {
+        "threshold": 0.96,
+        "coverage": 0.08246753246753247,
+        "precision_auto": 0.9960629921259843,
+        "escalated": 0.9175324675324675,
+        "overall_acc": 0.9721493506493507,
+        "rel_cost": 91.83571428571429
+      },
+      {
+        "threshold": 0.98,
+        "coverage": 0.032467532467532464,
+        "precision_auto": 1.0,
+        "escalated": 0.9675324675324676,
+        "overall_acc": 0.9709740259740259,
+        "rel_cost": 96.78571428571429
+      }
+    ],
+    "logreg_temp": [
+      {
+        "threshold": 0.1,
+        "coverage": 1.0,
+        "precision_auto": 0.887987012987013,
+        "escalated": 0.0,
+        "overall_acc": 0.887987012987013,
+        "rel_cost": 1.0
+      },
+      {
+        "threshold": 0.12,
+        "coverage": 0.9996753246753247,
+        "precision_auto": 0.8882754140954855,
+        "escalated": 0.00032467532467528315,
+        "overall_acc": 0.8883019480519481,
+        "rel_cost": 1.032142857142853
+      },
+      {
+        "threshold": 0.14,
+        "coverage": 0.999025974025974,
+        "precision_auto": 0.888852778680533,
+        "escalated": 0.0009740259740259605,
+        "overall_acc": 0.8889318181818182,
+        "rel_cost": 1.0964285714285702
+      },
+      {
+        "threshold": 0.16,
+        "coverage": 0.9987012987012988,
+        "precision_auto": 0.8891417425227568,
+        "escalated": 0.0012987012987012436,
+        "overall_acc": 0.8892467532467532,
+        "rel_cost": 1.1285714285714232
+      },
+      {
+        "threshold": 0.18,
+        "coverage": 0.9987012987012988,
+        "precision_auto": 0.8891417425227568,
+        "escalated": 0.0012987012987012436,
+        "overall_acc": 0.8892467532467532,
+        "rel_cost": 1.1285714285714232
+      },
+      {
+        "threshold": 0.2,
+        "coverage": 0.9970779220779221,
+        "precision_auto": 0.8905893845652881,
+        "escalated": 0.0029220779220778814,
+        "overall_acc": 0.8908214285714285,
+        "rel_cost": 1.2892857142857101
+      },
+      {
+        "threshold": 0.22,
+        "coverage": 0.9951298701298701,
+        "precision_auto": 0.8923327895595432,
+        "escalated": 0.004870129870129913,
+        "overall_acc": 0.8927110389610389,
+        "rel_cost": 1.4821428571428614
+      },
+      {
+        "threshold": 0.24,
+        "coverage": 0.9938311688311688,
+        "precision_auto": 0.893172165958837,
+        "escalated": 0.006168831168831157,
+        "overall_acc": 0.8936461038961039,
+        "rel_cost": 1.6107142857142844
+      },
+      {
+        "threshold": 0.26,
+        "coverage": 0.9925324675324675,
+        "precision_auto": 0.8943408570493948,
+        "escalated": 0.007467532467532512,
+        "overall_acc": 0.8949058441558442,
+        "rel_cost": 1.7392857142857188
+      },
+      {
+        "threshold": 0.28,
+        "coverage": 0.9905844155844156,
+        "precision_auto": 0.895771878072763,
+        "escalated": 0.009415584415584433,
+        "overall_acc": 0.8964707792207792,
+        "rel_cost": 1.9321428571428587
+      },
+      {
+        "threshold": 0.3,
+        "coverage": 0.9876623376623377,
+        "precision_auto": 0.8971071663379355,
+        "escalated": 0.012337662337662314,
+        "overall_acc": 0.8980064935064935,
+        "rel_cost": 2.221428571428569
+      },
+      {
+        "threshold": 0.32,
+        "coverage": 0.9840909090909091,
+        "precision_auto": 0.8993731441768393,
+        "escalated": 0.015909090909090873,
+        "overall_acc": 0.9004967532467533,
+        "rel_cost": 2.5749999999999966
+      },
+      {
+        "threshold": 0.34,
+        "coverage": 0.9814935064935065,
+        "precision_auto": 0.9004300363876944,
+        "escalated": 0.01850649350649347,
+        "overall_acc": 0.9017175324675325,
+        "rel_cost": 2.8321428571428537
+      },
+      {
+        "threshold": 0.36,
+        "coverage": 0.9769480519480519,
+        "precision_auto": 0.902625456962446,
+        "escalated": 0.0230519480519481,
+        "overall_acc": 0.9041785714285715,
+        "rel_cost": 3.282142857142862
+      },
+      {
+        "threshold": 0.38,
+        "coverage": 0.9733766233766233,
+        "precision_auto": 0.9052701801200801,
+        "escalated": 0.02662337662337666,
+        "overall_acc": 0.9069935064935065,
+        "rel_cost": 3.6357142857142892
+      },
+      {
+        "threshold": 0.4,
+        "coverage": 0.9698051948051948,
+        "precision_auto": 0.9069300301305658,
+        "escalated": 0.03019480519480522,
+        "overall_acc": 0.9088344155844156,
+        "rel_cost": 3.9892857142857165
+      },
+      {
+        "threshold": 0.42,
+        "coverage": 0.9672077922077922,
+        "precision_auto": 0.9080228264518295,
+        "escalated": 0.03279220779220782,
+        "overall_acc": 0.9100551948051948,
+        "rel_cost": 4.246428571428574
+      },
+      {
+        "threshold": 0.44,
+        "coverage": 0.9652597402597403,
+        "precision_auto": 0.908509922637067,
+        "escalated": 0.03474025974025974,
+        "overall_acc": 0.910646103896104,
+        "rel_cost": 4.439285714285714
+      },
+      {
+        "threshold": 0.46,
+        "coverage": 0.9616883116883117,
+        "precision_auto": 0.9108710330857529,
+        "escalated": 0.0383116883116883,
+        "overall_acc": 0.9131363636363637,
+        "rel_cost": 4.792857142857141
+      },
+      {
+        "threshold": 0.48,
+        "coverage": 0.9568181818181818,
+        "precision_auto": 0.9134713267729895,
+        "escalated": 0.04318181818181821,
+        "overall_acc": 0.9159123376623377,
+        "rel_cost": 5.275000000000003
+      },
+      {
+        "threshold": 0.5,
+        "coverage": 0.9506493506493506,
+        "precision_auto": 0.917691256830601,
+        "escalated": 0.04935064935064937,
+        "overall_acc": 0.9202727272727271,
+        "rel_cost": 5.885714285714287
+      },
+      {
+        "threshold": 0.52,
+        "coverage": 0.9438311688311688,
+        "precision_auto": 0.9215686274509803,
+        "escalated": 0.0561688311688312,
+        "overall_acc": 0.924288961038961,
+        "rel_cost": 6.560714285714289
+      },
+      {
+        "threshold": 0.54,
+        "coverage": 0.9363636363636364,
+        "precision_auto": 0.9251040221914009,
+        "escalated": 0.0636363636363636,
+        "overall_acc": 0.927961038961039,
+        "rel_cost": 7.299999999999996
+      },
+      {
+        "threshold": 0.56,
+        "coverage": 0.9301948051948052,
+        "precision_auto": 0.9287958115183246,
+        "escalated": 0.06980519480519476,
+        "overall_acc": 0.9316720779220778,
+        "rel_cost": 7.910714285714281
+      },
+      {
+        "threshold": 0.58,
+        "coverage": 0.9243506493506494,
+        "precision_auto": 0.931155602388479,
+        "escalated": 0.07564935064935063,
+        "overall_acc": 0.9340941558441558,
+        "rel_cost": 8.489285714285714
+      },
+      {
+        "threshold": 0.6,
+        "coverage": 0.9162337662337663,
+        "precision_auto": 0.9344436569808646,
+        "escalated": 0.08376623376623371,
+        "overall_acc": 0.937422077922078,
+        "rel_cost": 9.292857142857137
+      },
+      {
+        "threshold": 0.62,
+        "coverage": 0.9116883116883117,
+        "precision_auto": 0.9373219373219374,
+        "escalated": 0.08831168831168834,
+        "overall_acc": 0.9402077922077922,
+        "rel_cost": 9.742857142857147
+      },
+      {
+        "threshold": 0.64,
+        "coverage": 0.9064935064935065,
+        "precision_auto": 0.9401862464183381,
+        "escalated": 0.09350649350649354,
+        "overall_acc": 0.942974025974026,
+        "rel_cost": 10.25714285714286
+      },
+      {
+        "threshold": 0.66,
+        "coverage": 0.900974025974026,
+        "precision_auto": 0.9412612612612613,
+        "escalated": 0.09902597402597402,
+        "overall_acc": 0.9441071428571428,
+        "rel_cost": 10.803571428571427
+      },
+      {
+        "threshold": 0.68,
+        "coverage": 0.8944805194805194,
+        "precision_auto": 0.9426497277676951,
+        "escalated": 0.10551948051948057,
+        "overall_acc": 0.9455357142857143,
+        "rel_cost": 11.446428571428575
+      },
+      {
+        "threshold": 0.7,
+        "coverage": 0.8873376623376623,
+        "precision_auto": 0.9454811562385657,
+        "escalated": 0.11266233766233769,
+        "overall_acc": 0.9482435064935064,
+        "rel_cost": 12.15357142857143
+      },
+      {
+        "threshold": 0.72,
+        "coverage": 0.8821428571428571,
+        "precision_auto": 0.9458962090541038,
+        "escalated": 0.11785714285714288,
+        "overall_acc": 0.948737012987013,
+        "rel_cost": 12.667857142857144
+      },
+      {
+        "threshold": 0.74,
+        "coverage": 0.8730519480519481,
+        "precision_auto": 0.947936035701004,
+        "escalated": 0.12694805194805192,
+        "overall_acc": 0.950737012987013,
+        "rel_cost": 13.56785714285714
+      },
+      {
+        "threshold": 0.76,
+        "coverage": 0.865909090909091,
+        "precision_auto": 0.9482564679415073,
+        "escalated": 0.13409090909090904,
+        "overall_acc": 0.9511720779220779,
+        "rel_cost": 14.274999999999993
+      },
+      {
+        "threshold": 0.78,
+        "coverage": 0.8571428571428571,
+        "precision_auto": 0.9507575757575758,
+        "escalated": 0.1428571428571429,
+        "overall_acc": 0.9535064935064936,
+        "rel_cost": 15.142857142857148
+      },
+      {
+        "threshold": 0.8,
+        "coverage": 0.8461038961038961,
+        "precision_auto": 0.9577897160399079,
+        "escalated": 0.15389610389610386,
+        "overall_acc": 0.9596688311688312,
+        "rel_cost": 16.23571428571428
+      },
+      {
+        "threshold": 0.82,
+        "coverage": 0.8373376623376624,
+        "precision_auto": 0.9616130283055447,
+        "escalated": 0.16266233766233762,
+        "overall_acc": 0.9629772727272727,
+        "rel_cost": 17.103571428571424
+      },
+      {
+        "threshold": 0.84,
+        "coverage": 0.8262987012987013,
+        "precision_auto": 0.9634577603143418,
+        "escalated": 0.1737012987012987,
+        "overall_acc": 0.9645941558441558,
+        "rel_cost": 18.19642857142857
+      },
+      {
+        "threshold": 0.86,
+        "coverage": 0.8155844155844156,
+        "precision_auto": 0.9665605095541401,
+        "escalated": 0.18441558441558437,
+        "overall_acc": 0.9671948051948052,
+        "rel_cost": 19.25714285714285
+      },
+      {
+        "threshold": 0.88,
+        "coverage": 0.801948051948052,
+        "precision_auto": 0.9712550607287449,
+        "escalated": 0.19805194805194803,
+        "overall_acc": 0.9710064935064935,
+        "rel_cost": 20.607142857142854
+      },
+      {
+        "threshold": 0.9,
+        "coverage": 0.7892857142857143,
+        "precision_auto": 0.9724393253805018,
+        "escalated": 0.21071428571428574,
+        "overall_acc": 0.9719253246753247,
+        "rel_cost": 21.860714285714288
+      },
+      {
+        "threshold": 0.92,
+        "coverage": 0.7730519480519481,
+        "precision_auto": 0.9748005039899202,
+        "escalated": 0.2269480519480519,
+        "overall_acc": 0.973711038961039,
+        "rel_cost": 23.467857142857138
+      },
+      {
+        "threshold": 0.94,
+        "coverage": 0.7448051948051948,
+        "precision_auto": 0.9786399302528335,
+        "escalated": 0.2551948051948052,
+        "overall_acc": 0.9764350649350649,
+        "rel_cost": 26.264285714285716
+      },
+      {
+        "threshold": 0.96,
+        "coverage": 0.7107142857142857,
+        "precision_auto": 0.9821836455002284,
+        "escalated": 0.28928571428571426,
+        "overall_acc": 0.9786590909090909,
+        "rel_cost": 29.639285714285712
+      },
+      {
+        "threshold": 0.98,
+        "coverage": 0.6558441558441559,
+        "precision_auto": 0.9896039603960396,
+        "escalated": 0.3441558441558441,
+        "overall_acc": 0.9828571428571429,
+        "rel_cost": 35.07142857142857
+      }
+    ]
+  },
+  "exact_operating_points": {
+    "0.95": {
+      "naive_bayes": {
+        "escalated": 0.5172077922077922,
+        "threshold": 0.20384749347757802,
+        "precision_auto": 0.9502353732347008,
+        "overall_acc": 0.9604577922077921,
+        "rel_cost": 52.20357142857143
+      },
+      "logreg": {
+        "escalated": 0.18051948051948052,
+        "threshold": 0.3394467770994924,
+        "precision_auto": 0.9500792393026941,
+        "overall_acc": 0.9536753246753247,
+        "rel_cost": 18.871428571428574
+      },
+      "logreg_temp": {
+        "escalated": 0.14123376623376627,
+        "threshold": 0.7778657779472198,
+        "precision_auto": 0.950094517958412,
+        "overall_acc": 0.9529058441558441,
+        "rel_cost": 14.982142857142861
+      }
+    },
+    "0.98": {
+      "naive_bayes": {
+        "escalated": 0.7376623376623377,
+        "threshold": 0.34451481773848625,
+        "precision_auto": 0.9801980198019802,
+        "overall_acc": 0.9726753246753247,
+        "rel_cost": 74.02857142857142
+      },
+      "logreg": {
+        "escalated": 0.3642857142857143,
+        "threshold": 0.5562681565479743,
+        "precision_auto": 0.9800817160367722,
+        "overall_acc": 0.9764090909090908,
+        "rel_cost": 37.06428571428572
+      },
+      "logreg_temp": {
+        "escalated": 0.2649350649350649,
+        "threshold": 0.9467837019859994,
+        "precision_auto": 0.9801236749116607,
+        "overall_acc": 0.9774415584415583,
+        "rel_cost": 27.228571428571424
+      }
+    }
+  },
+  "fixed_thresholds": {
+    "0.8": {
+      "naive_bayes": {
+        "threshold": 0.8,
+        "coverage": 0.015584415584415584,
+        "precision_auto": 1.0,
+        "escalated": 0.9844155844155844,
+        "overall_acc": 0.9704675324675325,
+        "rel_cost": 98.45714285714286
+      },
+      "logreg": {
+        "threshold": 0.8,
+        "coverage": 0.37012987012987014,
+        "precision_auto": 0.9956140350877193,
+        "escalated": 0.6298701298701299,
+        "overall_acc": 0.9794805194805194,
+        "rel_cost": 63.35714285714286
+      },
+      "logreg_temp": {
+        "threshold": 0.8,
+        "coverage": 0.8461038961038961,
+        "precision_auto": 0.9577897160399079,
+        "escalated": 0.15389610389610386,
+        "overall_acc": 0.9596688311688312,
+        "rel_cost": 16.23571428571428
+      }
+    },
+    "0.9": {
+      "naive_bayes": {
+        "threshold": 0.9,
+        "coverage": 0.001948051948051948,
+        "precision_auto": 1.0,
+        "escalated": 0.9980519480519481,
+        "overall_acc": 0.9700584415584416,
+        "rel_cost": 99.80714285714285
+      },
+      "logreg": {
+        "threshold": 0.9,
+        "coverage": 0.21071428571428572,
+        "precision_auto": 0.9953775038520801,
+        "escalated": 0.7892857142857143,
+        "overall_acc": 0.9753474025974026,
+        "rel_cost": 79.13928571428572
+      },
+      "logreg_temp": {
+        "threshold": 0.9,
+        "coverage": 0.7892857142857143,
+        "precision_auto": 0.9724393253805018,
+        "escalated": 0.21071428571428574,
+        "overall_acc": 0.9719253246753247,
+        "rel_cost": 21.860714285714288
+      }
+    },
+    "0.98": {
+      "naive_bayes": {
+        "threshold": 0.98,
+        "coverage": 0.0,
+        "precision_auto": NaN,
+        "escalated": 1.0,
+        "overall_acc": 0.97,
+        "rel_cost": 100.0
+      },
+      "logreg": {
+        "threshold": 0.98,
+        "coverage": 0.032467532467532464,
+        "precision_auto": 1.0,
+        "escalated": 0.9675324675324676,
+        "overall_acc": 0.9709740259740259,
+        "rel_cost": 96.78571428571429
+      },
+      "logreg_temp": {
+        "threshold": 0.98,
+        "coverage": 0.6558441558441559,
+        "precision_auto": 0.9896039603960396,
+        "escalated": 0.3441558441558441,
+        "overall_acc": 0.9828571428571429,
+        "rel_cost": 35.07142857142857
+      }
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "method": "retrains exp02_cascade.py's backends with its exact recipe, plus logreg_isotonic via CalibratedClassifierCV(method='isotonic', cv=3); operating points from exp02_cascade's exact_operating_point / unlabeled_threshold_for_target",
+  "draft_reports": {
+    "mean_conf_auto_at_0.90": {
+      "logreg_temp": 0.989,
+      "logreg": 0.949
+    },
+    "precision_auto_at_0.90": {
+      "logreg_temp": 0.972,
+      "logreg": 0.995
+    },
+    "unlabeled_threshold": {
+      "logreg_temp": 0.54,
+      "logreg": 0.9
+    },
+    "unlabeled_measured_precision": {
+      "logreg_temp": 0.924,
+      "logreg": 0.995
+    },
+    "isotonic_escalated_at_95": 0.235
+  },
+  "models": {
+    "naive_bayes": {
+      "accuracy": 0.797077922077922,
+      "fixed_threshold": {
+        "threshold": 0.9,
+        "coverage": 0.001948051948051948,
+        "n_auto": 6,
+        "precision_auto": 1.0,
+        "mean_conf_auto": 0.909923842017024
+      },
+      "unlabeled_threshold": {
+        "target_mean_conf": 0.95,
+        "threshold": null,
+        "note": "mean confidence of acted-on never reaches the target"
+      },
+      "exact_operating_point_95": {
+        "escalated": 0.5172077922077922,
+        "threshold": 0.20384749347757802,
+        "precision_auto": 0.9502353732347008,
+        "overall_acc": 0.9604577922077921,
+        "rel_cost": 52.20357142857143
+      }
+    },
+    "logreg": {
+      "accuracy": 0.887987012987013,
+      "fixed_threshold": {
+        "threshold": 0.9,
+        "coverage": 0.21071428571428572,
+        "n_auto": 649,
+        "precision_auto": 0.9953775038520801,
+        "mean_conf_auto": 0.9492353108423655
+      },
+      "unlabeled_threshold": {
+        "target_mean_conf": 0.95,
+        "threshold": 0.9013059080469285,
+        "coverage": 0.20714285714285716,
+        "mean_conf_auto": 0.9500709251279041,
+        "measured_precision": 0.9952978056426333
+      },
+      "exact_operating_point_95": {
+        "escalated": 0.18051948051948052,
+        "threshold": 0.3394467770994924,
+        "precision_auto": 0.9500792393026941,
+        "overall_acc": 0.9536753246753247,
+        "rel_cost": 18.871428571428574
+      }
+    },
+    "logreg_temp": {
+      "accuracy": 0.887987012987013,
+      "fixed_threshold": {
+        "threshold": 0.9,
+        "coverage": 0.7892857142857143,
+        "n_auto": 2431,
+        "precision_auto": 0.9724393253805018,
+        "mean_conf_auto": 0.9891692425262126
+      },
+      "unlabeled_threshold": {
+        "target_mean_conf": 0.95,
+        "threshold": 0.5363355810586714,
+        "coverage": 0.9392857142857143,
+        "mean_conf_auto": 0.9501405945462376,
+        "measured_precision": 0.9239543726235742
+      },
+      "exact_operating_point_95": {
+        "escalated": 0.14123376623376627,
+        "threshold": 0.7778657779472198,
+        "precision_auto": 0.950094517958412,
+        "overall_acc": 0.9529058441558441,
+        "rel_cost": 14.982142857142861
+      }
+    },
+    "logreg_isotonic": {
+      "accuracy": 0.8704545454545455,
+      "fixed_threshold": {
+        "threshold": 0.9,
+        "coverage": 0.20422077922077922,
+        "n_auto": 629,
+        "precision_auto": 0.9952305246422893,
+        "mean_conf_auto": 0.9483969673976045
+      },
+      "unlabeled_threshold": {
+        "target_mean_conf": 0.95,
+        "threshold": 0.9029004974377143,
+        "coverage": 0.1974025974025974,
+        "mean_conf_auto": 0.9500187460387547,
+        "measured_precision": 0.9950657894736842
+      },
+      "exact_operating_point_95": {
+        "escalated": 0.2347402597402597,
+        "threshold": 0.5032641304737971,
+        "precision_auto": 0.9503606279168434,
+        "overall_acc": 0.9549707792207792,
+        "rel_cost": 24.23928571428571
+      }
+    }
+  }
+}

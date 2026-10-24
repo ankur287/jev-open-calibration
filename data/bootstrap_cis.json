@@ -1,0 +1,33 @@
+{
+  "method": "percentile bootstrap, 10000 resamples, seed 7; ECE = calibration.py, 10 bins, (lo, hi] edges",
+  "choice_ece": {
+    "point": 0.009607142857142995,
+    "ci95": [
+      0.006107142857142944,
+      0.02785714285714281
+    ],
+    "draft_reports": [
+      0.006,
+      0.027
+    ],
+    "ci95_exp04_bin_edges": [
+      0.005071428571428486,
+      0.026464285714285704
+    ]
+  },
+  "noul_pooled_ece": {
+    "point": 0.07060204081632653,
+    "ci95_pairs_resampled": [
+      0.06601530612244899,
+      0.0765767857142857
+    ],
+    "ci95_cluster_by_item": [
+      0.06566326530612245,
+      0.07671441326530613
+    ],
+    "draft_reports": [
+      0.066,
+      0.076
+    ]
+  }
+}
