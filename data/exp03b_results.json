@@ -1,0 +1,21 @@
+{
+  "n": 280,
+  "logreg": {
+    "choice_act_rate": 0.35,
+    "noul_act_rate": 0.275,
+    "contradiction_rate": 0.08214285714285714,
+    "contradictions": 23,
+    "noul_threshold_matched": 0.8688028015552725,
+    "contradiction_rate_matched": 0.02857142857142857,
+    "contradictions_matched": 8
+  },
+  "logreg_temp": {
+    "choice_act_rate": 0.9214285714285714,
+    "noul_act_rate": 0.275,
+    "contradiction_rate": 0.6464285714285715,
+    "contradictions": 181,
+    "noul_threshold_matched": 0.3756487617749747,
+    "contradiction_rate_matched": 0.05,
+    "contradictions_matched": 14
+  }
+}

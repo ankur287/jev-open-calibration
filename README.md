@@ -9,10 +9,12 @@ Code, data and figures for the Towards Data Science article "Jev Is API-Only. It
 | Task | Model | Accuracy | ECE |
 |---|---|---|---|
 | 7 intents | LogReg + temperature (open) | 0.975 | 0.022 |
-| 7 intents | Jev, Choice questions | 0.975 | 0.010 (95% CI 0.006 to 0.027) |
+| 7 intents | Jev, Choice questions | 0.975 | 0.014 (95% CI 0.008 to 0.031) |
 | 77 intents | LogReg + temperature (open) | 0.888 | 0.031 |
-| 77 intents | Jev, three-shot criteria | 0.859 | 0.064 |
-| 77 intents | Jev, terse criteria | 0.801 | 0.084 |
+| 77 intents | Jev, three-shot criteria | 0.859 | 0.065 |
+| 77 intents | Jev, terse criteria | 0.801 | 0.083 |
+
+All ECEs use 15 equal-width bins (`code/ece_matched_bins.py`).
 
 Other findings:
 
@@ -34,6 +36,8 @@ code/
   exp05_jev_77.py        Experiment 4: live Jev, 77 intents, terse criteria
   exp06_jev_77_fewshot.py  Experiment 4: live Jev, 77 intents, three-shot criteria
   exp01_derived.py, exp02_derived.py, bootstrap_cis.py   numbers quoted in the article
+  exp03b_framing_jev_protocol.py  framing test on open models with the Jev protocol
+  ece_matched_bins.py    Jev and open ECE on the same 15 bins + paired bootstrap
   example_lost_wallet.py the lost-wallet example from the article's opening
 data/
   banking77_{train,test}.csv   BANKING77 (CC-BY 4.0)
@@ -53,6 +57,8 @@ python code/exp02_cascade.py
 python code/exp03_schema.py
 python code/exp01_derived.py && python code/exp02_derived.py
 python code/bootstrap_cis.py    # bootstrap CIs from the saved Jev responses, offline
+python code/exp03b_framing_jev_protocol.py
+python code/ece_matched_bins.py
 python code/example_lost_wallet.py   # the opening example, a few seconds
 ```
 

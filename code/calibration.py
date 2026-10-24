@@ -69,7 +69,7 @@ def plot_reliability_diagram(y_true, y_prob, n_bins=15, title="", path=None):
     ax1.set_xlabel("mean predicted probability (confidence)")
     ax1.set_ylabel("observed accuracy")
     ax1.set_title(title or "Reliability diagram")
-    ax1.legend(loc="upper left")
+    ax1.legend(loc="lower right")
     ax1.text(0.02, 0.95, f"ECE = {expected_calibration_error(y_true, y_prob, n_bins):.4f}",
              transform=ax1.transAxes, fontsize=10,
              bbox=dict(facecolor="white", alpha=0.8, edgecolor="none"))
