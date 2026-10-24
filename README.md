@@ -34,6 +34,7 @@ code/
   exp05_jev_77.py        Experiment 4: live Jev, 77 intents, terse criteria
   exp06_jev_77_fewshot.py  Experiment 4: live Jev, 77 intents, three-shot criteria
   exp01_derived.py, exp02_derived.py, bootstrap_cis.py   numbers quoted in the article
+  example_lost_wallet.py the lost-wallet example from the article's opening
 data/
   banking77_{train,test}.csv   BANKING77 (CC-BY 4.0)
   exp0*_results.json           saved results for every experiment
@@ -52,6 +53,7 @@ python code/exp02_cascade.py
 python code/exp03_schema.py
 python code/exp01_derived.py && python code/exp02_derived.py
 python code/bootstrap_cis.py    # bootstrap CIs from the saved Jev responses, offline
+python code/example_lost_wallet.py   # the opening example, a few seconds
 ```
 
 The open-model experiments take a few minutes on a laptop CPU.
