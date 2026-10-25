@@ -4,9 +4,8 @@ Two failure patterns documented against Jev, reproduced here on open models
 to show they are properties of the *interface paradigm*, not of one vendor:
 
 Part 1 — the none-of-the-above trap.
-  A Choice question is asked over options that exclude the true answer
-  (mirrors the PriorBench finding: 30 off-schema messages, no "none of
-  these" option, model picked a listed category every time at >=0.99).
+  A Choice question is asked over options that exclude the true answer,
+  with no "none of these" option.
   Setup: 7-intent classifier, evaluated on states from the other 70 intents.
   Measure the confidence distribution in-schema vs out-of-schema, and the
   false auto-act rate at a fixed threshold, for both an isotonic-calibrated
