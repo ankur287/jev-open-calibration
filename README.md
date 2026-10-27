@@ -21,7 +21,7 @@ Other findings:
 - One temperature fit on out-of-fold logits takes ECE on the 77-intent task from 0.248 to 0.031 without changing any prediction.
 - At the same 0.90 threshold, the three open backends auto-decide 0.2%, 21.1% and 78.9% of traffic.
 - With no "none of these" option, out-of-schema queries get auto-acted on at 29.2% (open, temperature-scaled) and 26% (Jev).
-- Jev's Noul (yes/no) outputs are underconfident on positives (ECE 0.159), while its Choice outputs are well calibrated.
+- Jev's Noul (yes/no) outputs are underconfident on true cases (mean P(true) 0.84, only 56% clear 0.9), while its Choice outputs are well calibrated.
 
 ## Layout
 
